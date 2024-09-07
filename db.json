@@ -1,0 +1,180 @@
+{
+  "students": [
+    {
+      "username": "test",
+      "email": "test@test.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "1",
+          "degree": 1
+        },
+        {
+          "name": "اللغة العربية",
+          "id": "2",
+          "degree": 1
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "username": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "1",
+          "degree": 1
+        },
+        {
+          "name": "اللغة العربية",
+          "id": "2",
+          "degree": 0
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "username": "Ali",
+      "email": "ali@gmail.com",
+      "password": "123",
+      "id": "3"
+    },
+    {
+      "id": "5c82",
+      "username": "ali1",
+      "email": "ali@gmail.com1",
+      "password": "123"
+    },
+    {
+      "id": "0646",
+      "username": "ismail",
+      "email": "ismail@gmai.com",
+      "password": "123"
+    },
+    {
+      "username": "ismaill",
+      "email": "iamaill@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "1",
+          "degree": 1
+        }
+      ],
+      "id": "d6c1"
+    },
+    {
+      "id": "6796",
+      "username": "ismaill2",
+      "email": "ismaill1@gmail.com",
+      "password": "123"
+    },
+    {
+      "username": "mohammedRamadan",
+      "email": "mohammedramsdan@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "maths2",
+          "id": "7309",
+          "degree": 1
+        }
+      ],
+      "id": "32c5"
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": "1"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "الرياضيات",
+      "questions": [
+        {
+          "question": "2*2",
+          "answer1": "4",
+          "answer2": "6",
+          "answer3": "8",
+          "answer4": "3",
+          "correctAnswer": "4"
+        },
+        {
+          "question": "5+20",
+          "answer1": "25",
+          "answer2": "35",
+          "answer3": "30",
+          "answer4": "40",
+          "correctAnswer": "25"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "name": "اللغة العربية",
+      "questions": [
+        {
+          "question": "تيست",
+          "answer1": "تيتسن",
+          "answer2": "يبل",
+          "answer3": "يبلي",
+          "answer4": "يبلي",
+          "correctAnswer": "تيتسن"
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3f7c",
+      "name": "maths0",
+      "questions": [
+        {
+          "question": "2+8",
+          "answer1": "10",
+          "answer2": "33",
+          "answer3": "554",
+          "answer4": "44",
+          "correctAnswer": "44"
+        }
+      ]
+    },
+    {
+      "id": "7309",
+      "name": "maths2",
+      "questions": [
+        {
+          "question": "2*10",
+          "answer1": "20",
+          "answer2": "12",
+          "answer3": "323",
+          "answer4": "334",
+          "correctAnswer": "20"
+        },
+        {
+          "question": "2+7",
+          "answer1": "6",
+          "answer2": "12",
+          "answer3": "9",
+          "answer4": "32",
+          "correctAnswer": "6"
+        }
+      ]
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "role": "doctor",
+      "userId": "1",
+      "id": "1"
+    }
+  ]
+}
